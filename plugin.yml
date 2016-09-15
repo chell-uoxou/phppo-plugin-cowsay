@@ -1,0 +1,16 @@
+name: command-cowsay
+path: src/chell_uoxou/main.php
+main: cowsay\main
+version: 0.1.0
+api: 1.6.10_Beta
+load: STARTUP
+author: chell_uoxou
+description: To enable the cowsay command.
+commands:
+ cowsay:
+  permission: cowsay.command
+  usage: "cowsay <#args...>"
+permissions:
+ cowsay.command:
+  default: root
+  description: "allow all command"
